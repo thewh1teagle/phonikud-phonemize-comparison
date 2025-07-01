@@ -1,0 +1,22 @@
+[project]
+name = "phonikud-phonemize-comparison"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "dicta-onnx>=1.0.9",
+    "espeakng-loader>=0.2.4",
+    "jiwer>=3.1.0",
+    "nakdimon-onnx>=0.1.0",
+    "phonemizer-fork>=3.3.2",
+    "phonikud",
+    "phonikud-onnx>=1.0.1",
+    "pygoruut>=0.6.2",
+    "torch>=2.7.0",
+    "tqdm>=4.67.1",
+    "transformers>=4.52.4",
+]
+
+[tool.uv.sources]
+phonikud = { git = "https://github.com/thewh1teagle/phonikud" }
