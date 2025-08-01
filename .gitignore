@@ -1,3 +1,6 @@
 *.onnx
 data/
 __pycache__/
+ilspeech_speaker2_v1/
+*.7z
+*seed0*.json
