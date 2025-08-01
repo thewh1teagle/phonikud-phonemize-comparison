@@ -1,15 +1,15 @@
 """
 mkdir data && cd data
-wget https://huggingface.co/datasets/thewh1teagle/ILSpeech/resolve/main/Ran/exp/transcript_ran_v8_hand.json
-wget https://huggingface.co/datasets/thewh1teagle/ILSpeech/resolve/main/Ran/exp/metadata_ran_v8_hand.csv
+wget https://huggingface.co/datasets/thewh1teagle/ILSpeech/resolve/main/speaker2/ilspeech_speaker2_v1.7z
+7z x ilspeech_speaker2_v1.7z
 """
 
 import json
 import random
 
-with open("transcript_ran_v8_hand.json", "r") as f:
+with open("ilspeech_speaker2_v1/transcript.json", "r") as f:
     transcript = json.load(f)
-with open("metadata_ran_v8_hand.csv", "r") as f:
+with open("ilspeech_speaker2_v1/metadata.csv", "r") as f:
     metadata = f.readlines()
     metadata = {k: v for k, v in (line.strip().split("|") for line in metadata)}
 
