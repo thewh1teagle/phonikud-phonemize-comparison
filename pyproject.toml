@@ -12,7 +12,7 @@ dependencies = [
     "phonemizer-fork>=3.3.2",
     "phonikud",
     "phonikud-onnx>=1.0.1",
-    "pygoruut>=0.6.2",
+    "pygoruut>=0.6.3",
     "torch>=2.7.0",
     "tqdm>=4.67.1",
     "transformers>=4.52.4",
