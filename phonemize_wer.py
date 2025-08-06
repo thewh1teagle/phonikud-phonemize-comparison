@@ -10,7 +10,7 @@ from pathlib import Path
 from jiwer import cer, wer
 from tqdm import tqdm
 
-from phonemizers import charisiu, phonikud_phonemizer, espeak, goruut, goruut_0_6_3, nakdimon_phonikud, dicta_phonikud, dicta_naive, nakdimon_naive, phonikud_naive
+from phonemizers import charisiu, phonikud_phonemizer, espeak, goruut, goruut_0_6_3, goruut_0_6_3_extra, nakdimon_phonikud, dicta_phonikud, dicta_naive, nakdimon_naive, phonikud_naive
 
 phonemizers = {
     "phonikud": phonikud_phonemizer.phonemize,
@@ -18,6 +18,7 @@ phonemizers = {
     # "charisiu": charisiu.phonemize,
     # "goruut": goruut.phonemize,
     # "goruut_0_6_3": goruut_0_6_3.phonemize,
+    # "goruut_0_6_3_extra": goruut_0_6_3_extra.phonemize,
     # "nakdimon_phonikud": nakdimon_phonikud.phonemize,
     # "dicta_phonikud": dicta_phonikud.phonemize,
     # "dicta_naive": dicta_naive.phonemize,  # Placeholder for Dicta Naive, not implemented
