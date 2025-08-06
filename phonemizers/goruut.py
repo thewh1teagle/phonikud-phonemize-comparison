@@ -11,7 +11,7 @@ pygoruut = None
 def phonemize(sentence: str) -> str:
     global pygoruut
     if pygoruut is None:
-        pygoruut = Pygoruut()
+        pygoruut = Pygoruut(writeable_bin_dir='')
 
     return str(pygoruut.phonemize(language="Hebrew", sentence=sentence))
 
