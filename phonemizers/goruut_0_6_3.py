@@ -6,14 +6,14 @@ uv pip install pygoruut
 """
 from pygoruut.pygoruut import Pygoruut
 
-pygoruut = None
+pygoruut063 = None
 
 def phonemize(sentence: str) -> str:
-    global pygoruut
-    if pygoruut is None:
-        pygoruut = Pygoruut(version='v0.6.3')
+    global pygoruut063
+    if pygoruut063 is None:
+        pygoruut063 = Pygoruut(version='v0.6.3', writeable_bin_dir='')
 
-    return str(pygoruut.phonemize(language="Hebrew3", sentence=sentence))
+    return str(pygoruut063.phonemize(language="Hebrew3", sentence=sentence))
 
 # Example usage:
 if __name__ == "__main__":

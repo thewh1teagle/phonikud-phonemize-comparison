@@ -757,7 +757,7 @@ requires-dist = [
     { name = "phonemizer-fork", specifier = ">=3.3.2" },
     { name = "phonikud", git = "https://github.com/thewh1teagle/phonikud" },
     { name = "phonikud-onnx", specifier = ">=1.0.1" },
-    { name = "pygoruut", specifier = ">=0.6.3" },
+    { name = "pygoruut", specifier = ">=0.6.5" },
     { name = "torch", specifier = ">=2.7.0" },
     { name = "tqdm", specifier = ">=4.67.1" },
     { name = "transformers", specifier = ">=4.52.4" },
@@ -779,14 +779,14 @@ wheels = [
 
 [[package]]
 name = "pygoruut"
-version = "0.6.3"
+version = "0.6.5"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "requests" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/da/7d/d74d63282a47e7ccba573a846b2ecd7b21997bbe40cb78bbf253fe5dc77e/pygoruut-0.6.3.tar.gz", hash = "sha256:adec86b762360caa65e958ec2c3f0a51587003a3cb7bbaf28c26de8aa5e3d4c9", size = 24168, upload-time = "2025-08-02T06:34:57.308Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/45/36/fa2c1113850c98f15a666f4a54b60b65ffb211726e4644e1971f3a190df2/pygoruut-0.6.5.tar.gz", hash = "sha256:de1835a402c91c2d603a44e6dca8663242c1caa0538289ed20c0dfdad19856b9", size = 24668, upload-time = "2025-08-06T15:58:19.019Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/2c/57/7f139d8b60a2cddc0e9d77ff6a3ce9708da4e6cc5f8b83ab6057dbc1d246/pygoruut-0.6.3-py3-none-any.whl", hash = "sha256:7e6f196641ce1b4480e8313d30ac51d609ad93def13f59f0e4719a9dfc242a70", size = 21150, upload-time = "2025-08-02T06:34:55.672Z" },
+    { url = "https://files.pythonhosted.org/packages/b8/e8/96cfa03907725369d025feb6aa1be5f4cf264c0efaf87f9c82fbe3e2766e/pygoruut-0.6.5-py3-none-any.whl", hash = "sha256:1bfde53cf3143354cf3c08bfade809f2cd4bf5649e14fefd689de8426ff4cfda", size = 21455, upload-time = "2025-08-06T15:58:18.243Z" },
 ]
 
 [[package]]
